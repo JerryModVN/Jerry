@@ -1,0 +1,10 @@
+.ct-header-text p span {
+  animation: blinker 0.7s infinite;
+  font-weight: 600;
+}
+
+@keyframes blinker {
+  50% {
+    color: #ffc107;
+  }
+}
